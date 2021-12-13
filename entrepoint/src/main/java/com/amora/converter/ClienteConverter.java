@@ -2,13 +2,8 @@ package com.amora.converter;
 
 import com.amora.cliente.entity.Carrinho;
 import com.amora.cliente.entity.Cliente;
-import com.amora.cliente.entity.Produto;
 import com.amora.request.ClienteRequest;
-import com.amora.request.ProdutoRequest;
 import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Component
 public class ClienteConverter {

@@ -1,22 +1,17 @@
 package com.amora.request;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class CarrinhoProdutoRequest {
     private String idCliente;
     private String idProduto;
 
-    public String getIdCliente() {
-        return idCliente;
-    }
 
-    public void setIdCliente(String idCliente) {
-        this.idCliente = idCliente;
-    }
-
-    public String getIdProduto() {
-        return idProduto;
-    }
-
-    public void setIdProduto(String idProduto) {
-        this.idProduto = idProduto;
-    }
 }
